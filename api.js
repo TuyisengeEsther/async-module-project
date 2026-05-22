@@ -14,5 +14,4 @@ function fetchPosts() {
         });
 }
 fetchPosts()
-// export { fetchPosts };
-// fetchPosts();
+export { fetchPosts };
