@@ -4,12 +4,15 @@ function fetchPosts() {
             return response.json();
         })
         .then(function (data) {
+            console.log(data);
             return data;
+            
         })
         .catch(function (error) {
             console.log("Failed to fetch posts:", error);
             return [];
         });
 }
-
-export { fetchPosts };
+fetchPosts()
+// export { fetchPosts };
+// fetchPosts();
